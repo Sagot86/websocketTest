@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    hikari:
+      schema: public
+    username: postgres
+    password: postgres
+  liquibase:
+    driverClassName: org.postgresql.Driver
+    liquibase-schema: public
+    default-schema: public

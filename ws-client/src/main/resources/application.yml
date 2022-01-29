@@ -1,0 +1,15 @@
+server:
+  port: 8077
+spring:
+  application:
+    name: ws-client
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  codec:
+    max-in-memory-size: 10MB
+logging:
+  level:
+    com.ws: DEBUG
+
+

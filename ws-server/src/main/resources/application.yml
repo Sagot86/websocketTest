@@ -1,0 +1,15 @@
+server:
+  port: 8066
+spring:
+  application:
+    name: ws-server
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  codec:
+    max-in-memory-size: 10MB
+logging:
+  level:
+    com.ws: DEBUG
+
+
